@@ -190,6 +190,7 @@ ol{
         left: 50%;
         transform: translateX(-50%);
         padding-left: initial;
+        animation: none;
           }
 
      .big{
@@ -198,12 +199,25 @@ ol{
         }
 }
 
+@media screen and (max-width: 375px){
+    .hero h1{
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .titleline{
+        width: 160px;
+        height: 70px;
+        margin: 10px 1vw;
+    }
+}
+
       
       /* CSSアニメーションの設定 */
       @keyframes SlideInleft {
         0% {
           opacity: 0;/*初期状態では透明に*/
-          transform: translateX(-64px);
+          transform: translateX(0);
         }
         100% {
           opacity: 1;
@@ -248,6 +262,14 @@ ol{
    .curriculum img{
     width: 70vw;
    }
+}
+
+@media screen and (max-width: 375px){
+    ol{
+        font-size: 15px;
+        line-height: 35px;
+    }
+    
 }
 
 /* apply */
