@@ -554,10 +554,13 @@ ol{
     .form td{
         display: block;
         text-align: left;
+        overflow: hidden;
     }
 
     .input{
         min-width: 60vw;
+        -webkit-appearance: none;
+        appearance: none;
     }
     
 }
