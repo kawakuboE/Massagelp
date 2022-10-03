@@ -558,9 +558,7 @@ ol{
     }
 
     .input{
-        min-width: 60vw;
-        -webkit-appearance: none;
-        appearance: none;
+        width: 60vw;
     }
     
 }
