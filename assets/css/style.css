@@ -303,6 +303,10 @@ ol{
     .apply img{
         width: 60vw;
     }
+
+    .apply:hover{
+        transform: none;
+    }
 }
 
 /* healthhealing */
