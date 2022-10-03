@@ -298,15 +298,13 @@ ol{
     .apply{
         margin: 5vh auto 2vh;
         width: 60vw;
+        animation: none;
     }
 
     .apply img{
         width: 60vw;
     }
 
-    .apply:hover{
-        animation: none;
-    }
 }
 
 /* healthhealing */
