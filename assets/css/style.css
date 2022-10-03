@@ -280,24 +280,19 @@ ol{
     transition-duration: .5s;
 }
 
-.apply:hover{
-    transform: scale(1.2);
+@media (hover: hover) and (pointer: fine) {
+   .apply:hover{
+     transform: scale(1.2);
+  }
 }
 
 @media screen and (max-width: 990px){
     .apply{
         width: 40vw;
-        transition-duration: none;
     }
     .apply img{
         width: 40vw;
     }
-
-    .apply:hover{
-        transform: none;
-    }
-
-
 }
 
 @media screen and (max-width: 768px){
