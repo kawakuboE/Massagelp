@@ -287,10 +287,16 @@ ol{
 @media screen and (max-width: 990px){
     .apply{
         width: 40vw;
+        animation: none;
     }
     .apply img{
         width: 40vw;
     }
+
+    .apply:hover{
+        transform: none;
+    }
+
 
 }
 
@@ -298,16 +304,12 @@ ol{
     .apply{
         margin: 5vh auto 2vh;
         width: 60vw;
-        animation: none;
     }
 
     .apply img{
         width: 60vw;
     }
 
-    .apply:hover{
-        transform: none;
-    }
 
 }
 
