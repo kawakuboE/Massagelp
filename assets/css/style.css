@@ -555,10 +555,11 @@ ol{
         display: block;
         text-align: left;
         overflow: hidden;
+        width: 60vw;
     }
 
     .input{
-        width: 60vw;
+        width: 100%;
     }
     
 }
