@@ -305,7 +305,7 @@ ol{
     }
 
     .apply:hover{
-        transform: none;
+        animation: none;
     }
 }
 
