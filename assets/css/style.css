@@ -19,7 +19,7 @@ h1{
 
 
 .wrap1,.containerwrap{ 
-    width: 80vw;
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -35,7 +35,7 @@ figure{
 }
 
 .about figcaption,.healthhealing figcaption{
-    width: 40vw;
+    width: 400px;
     padding-left: 0;
 }
 
@@ -49,6 +49,14 @@ ol{
 
 
 @media screen and (max-width: 990px){
+    .wrap1,.containerwrap{
+        width: 80vw;
+    }
+
+    .about figcaption,.healthhealing figcaption{
+        width: 40vw;
+    }
+
     figure{
         display: block;
     }
@@ -363,7 +371,7 @@ ol{
 }
 
 .container{
-    width: 31vw;
+    width: 300px;
     min-height: 27vw;
     box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.35);
 }
@@ -508,7 +516,7 @@ ol{
 /* applyform */
 
 .form{
-    width: 75vw;
+    width: 800px;
     height: auto;
     background-color: #f7e9e0;
     margin: 0 auto 95px;
@@ -534,7 +542,7 @@ ol{
 
 .input{
     background-color: #fff;
-    min-width: 50vw;
+    min-width: 500px;
     height: 40px;
 }
 
